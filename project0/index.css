@@ -1,0 +1,76 @@
+
+#intro , #history , #list  {
+
+	color: black;
+	text-align:justify;
+	margin: 25px;
+	font-size: 20px;
+	
+	
+
+}
+
+table,th,td {
+
+	border: 1px solid black;
+	padding: 15px;
+	border-collapse: collapse;
+	text-align: center ;
+	background-color: #d9fdff;
+
+
+
+}
+
+
+
+table{
+
+	margin-left: 13%;
+	margin-top: 5% ;
+	margin-right: 13%;
+	margin-bottom: 5%;
+}
+
+
+
+img {
+ 	width: 99%;
+  	height: auto;
+ 	padding: 10px;
+  	border: 1px solid #ccc;
+  	margin-top: 35px;
+}	
+
+p::selection{
+
+	color: red;
+	background-color: yellow;
+}
+
+
+@media (max-width: 800px){
+
+	table,th,td {
+
+	border: 1px solid black;
+	padding: auto;
+	border-collapse: collapse;
+	text-align: center ;
+	background-color: #d9fdff;
+	font-size: 10px
+
+
+	}
+
+
+
+	table{
+
+		margin-left: 3px;
+		margin-top: 3px;
+		margin-right: 3px;
+		margin-bottom:15px;
+	}
+
+}

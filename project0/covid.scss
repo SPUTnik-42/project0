@@ -1,0 +1,78 @@
+$colour : black;
+
+%message {
+	padding: 15px;
+	text-align: justify;
+}
+
+h1{
+
+	color: $colour ;
+	text-align : center;
+	padding: 25px;
+	font-size: 60px;
+}
+
+
+p::selection {
+	@extend %message
+}
+
+
+#all{
+	p {
+
+		@extend %message
+	}
+
+	h2 {
+
+		color: $colour;	
+	}
+}
+
+a {
+
+	@extend %message
+}
+
+h2,h3{
+	@extend %message
+}
+
+#all  {
+
+	margin-left :15%;
+	margin-right: 15%;
+	margin-bottom: 15%;
+	margin-top: 60px;
+}
+
+.card { 
+    width: 50rem; 
+    margin: 2rem;
+    align-self: center; 
+    text-align: center;
+    margin: auto;
+} 
+          
+.image-grid-container { 
+    display: grid; 
+      
+   /* For 2 columns */ 
+    grid-template-columns: auto auto; 
+    text-align: center;
+    margin: auto;
+}
+img { 
+    width: 100%; 
+
+
+}
+
+@media (max-width: 1000px){
+
+   	.card{
+   		width:20rem;
+   	}
+}
